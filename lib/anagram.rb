@@ -6,11 +6,12 @@ class Anagram
 
   def initialize(word)
     @word = word
+    @word_to_compare = word.split("")
   end
 
   def match(word_array)
     word_array.each do |word|
-      split_word = word.split("")
+      compared_word = word.split("")
       
       binding.pry
     end
