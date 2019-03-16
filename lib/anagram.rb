@@ -14,7 +14,7 @@ class Anagram
     word_array.each do |word|
       compared_word = word.split("")
       if compared_word.sort == @word_to_compare.sort
-        
+
       binding.pry
     end
   end
