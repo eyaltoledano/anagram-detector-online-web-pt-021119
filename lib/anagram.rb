@@ -16,7 +16,6 @@ class Anagram
       if compared_word.sort == @word_to_compare.sort
         match << word
       end
-      binding.pry
     end
     match
   end
